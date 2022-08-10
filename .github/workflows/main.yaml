@@ -69,7 +69,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
-         image: elanchezhiyan1224ps/orders-poc
+         image: elanchezhiyan1224ps/orders-poc1
          tags: latest
          registry: docker.io
          dockerfile: docker/orders/Dockerfile.github
