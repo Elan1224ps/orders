@@ -62,7 +62,7 @@ jobs:
           path: test/json-server/
           dockerfile: test/json-server/Dockerfile
           repository: weaveworksdemos/json-server
-          tags: latest
+          tags: latest 
           
      
       # Push to dockerhub
